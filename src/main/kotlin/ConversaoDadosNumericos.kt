@@ -11,7 +11,9 @@ fun main() {
     val i2 = d2.toInt()
     println(i2)
 
-
+    val d4 = 10.34
+    val i7 = d2.toInt()
+    println(i7)
 
 
 }
