@@ -30,9 +30,12 @@ fun main() {
 
         print("VOCÊ É ADULTO :(")
 
-    }else if (age >= 66) {
+    }else if (age >= 66 && age <= 120) {
 
         print("VOCÊ É IDOSO *---*")
+    }else {
+
+        print("Idade Inválida  ´---´ ")
     }
 
 
