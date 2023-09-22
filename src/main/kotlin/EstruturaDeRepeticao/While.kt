@@ -2,24 +2,16 @@ package EstruturaDeRepeticao
 
 fun main() {
 
-    var x = 0
+    var x = 10
 
-    while (x <= 10) {
+    while (x < 5) {
 
         print("$x ")
-
-        x++
-
     }
 
-println()
-     x = 0
-   do {
-       print("$x ")
+    do {
+        print("$x ")
 
-       x++
-
-   }while (x <= 10)
-
+    }while (x < 5)
 
 }
