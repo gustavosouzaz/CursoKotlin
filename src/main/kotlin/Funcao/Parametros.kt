@@ -2,12 +2,12 @@ package Funcao
 
 fun main() {
 
-sayHello("Gustavo")
+sayHello("Gustavo", 30)
 
 }
 
-fun sayHello(nome: String) {
+fun sayHello(nome: String, temperatura: Int) {
 
-    println("Oi, $nome")
+    println("Oi, $nome. A temperatura ambiente é $temperatura")
 
 }
